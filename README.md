@@ -13,7 +13,7 @@
   <a href="https://discord.gg/P8cYmX4rm4">Discord</a>
 </p>
 
-![The CrewBay office with demo data: Claude and Codex sessions as robots, with labels for work that needs you](assets/office.png)
+![CrewBay in action with demo data: the live office, zooming in on sessions that need you](assets/demo.gif)
 
 ## Why I built it
 
@@ -39,7 +39,7 @@ saying what it's doing right now.
 
 No account and no subscription needed for any of that.
 
-![Zoomed into a project: a robot waiting for approval and helper agents working](assets/office-zoom.png)
+![The whole office: every Claude and Codex session, with labels for work that needs you](assets/office.png)
 
 ## CrewBay Pro (optional)
 
@@ -87,6 +87,31 @@ For 3.4.2 it should print `CCAD63882ECBAA6A1E73FDD62FFE71D7664608D4A38F0D683311A
 
 Mac and Linux aren't supported yet. If you'd use it there, open an issue and say so. That's
 how I decide what to build next.
+
+## FAQ
+
+**Is it safe to run?**
+It only reads the session logs Claude Code and Codex already write, and never changes them. Your
+work isn't uploaded anywhere. See [Privacy](#privacy-what-it-reads-what-it-sends) above for the
+complete list of what leaves your computer.
+
+**Does it see sessions from the Claude desktop app?**
+Claude Code sessions show up whether you started them in a terminal, an editor extension or the
+Claude desktop app's Code tab. Regular Claude chats (not Claude Code) don't, because they aren't
+stored on your computer.
+
+**Do I need both Claude Code and Codex?**
+No. One is enough. If you use both, they share the same office.
+
+**Does it use my AI usage or need an API key?**
+The free office runs no AI at all. It shows your limits using your existing Claude Code sign-in,
+and you can turn that off. Pro's chats and crews run on your own Claude and Codex accounts.
+
+**Is it really free?**
+Yes. The office, Inbox, usage limits, history and replay are free with no account. Pro is optional.
+
+**Mac or Linux?**
+Not yet. If you'd use it, [open an issue](../../issues) so I know.
 
 ## Feedback
 
